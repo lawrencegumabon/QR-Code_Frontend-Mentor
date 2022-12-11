@@ -9,13 +9,16 @@
 
 body{
     background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display:flex; 
+    align-items: center; 
+    justify-content: center
 }
 main{
     width: 300px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 16px;
     padding: 15px;
-    margin: 100px auto;
 }
 
 img{
